@@ -9,7 +9,7 @@ except:
 
 
 def usage():
-  print "Usage: tg.py 8.8.8.8 SIZE TOS MBPS SEC"
+  print "Usage: tg.py x.x.x.x SIZE TOS MBPS SEC"
   sys.exit(1)
 	
 if len(sys.argv) != 6:
